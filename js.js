@@ -1,7 +1,7 @@
 function openSlideMenu(){
     document.getElementById('menu').style.transitionDelay = "0s";
     document.getElementById('menu').style.width ="250px";
-    document.getElementById('menu').style.transitionDelay = "0s";
+    document.getElementById('bars').style.transitionDelay = "0s";
     document.getElementById('bars').style.opacity = "0";
     document.getElementById('button').style.opacity = "0.9";
     document.getElementById('button2').style.opacity = "0.9";
