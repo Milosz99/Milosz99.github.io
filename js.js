@@ -23,7 +23,7 @@ function closeSlideMenu(){
 
 function background() {
     var images = ["zdj/1.jpg", "zdj/2.jpg", "zdj/3.jpg", "zdj/4.jpg", "zdj/5.jpg", "zdj/6.jpg", "zdj/7.jpg", "zdj/8.jpg"]
-    var imgNumber = Math.floor(Math.random()*myImages.length +1);
+    var imgNumber = Math.floor(Math.random()*images.length +1);
     document.getElementsByClassName("background").style.backgroundImage = 'url('+images[imgNumber]+')';
 }
 window.onload = background();
