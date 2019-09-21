@@ -1,7 +1,7 @@
 html {
     text-decoration: none;
 }
-.background{
+#background{
     position: absolute;
     
     background-size: cover;
